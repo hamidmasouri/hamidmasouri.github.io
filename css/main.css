@@ -1,35 +1,115 @@
-
-@media all and (max-width:575px){}
+@media all and (max-width:575px){
+    .d-nav-custom{
+        display: none;
+    }
+}
 
 /* sm */
-@media all and (min-width:576px) and (max-width:767px){}
+@media all and (min-width:576px) and (max-width:767.5px){
+    .d-nav-custom{
+        display: none;
+    }
+}
 
 /* md */
-@media all and (min-width:768px) and (max-width:991px){}
-
+@media all and (min-width:768px) and (max-width:991px){
+    .d-custom-none{
+        display: none;
+    }
+}
 /* lg */
-@media all and (min-width:991px) and (max-width:1199.5px){}
-
+@media all and (min-width:991px) and (max-width:1199.5px){
+    .d-custom-none{
+        display: none;
+    }
+}
 /* xl */
-@media all and (min-width:1200px) and (max-width:1399.5px){}
-
+@media all and (min-width:1200px) and (max-width:1399.5px){
+    .d-custom-none{
+        display: none;
+    }
+}
 /* xxl */
-@media all and (min-width:1400px){}
-
-.custom-bg{
-    background-color: rgb(109, 109, 109);
-    padding: 11.5px 24px 9.5px 30px;
-
+@media all and (min-width:1400px){
+    .d-custom-none{
+        display: none;
+    }
+}
+.bg-dark-custom{
+    background-color: #040404;
+}
+.custom-brand{
+    position: relative;
+    margin: 0 auto;
+}
+.custom-brand::after{
+    content: url(../svg/razer-ths-logo.svg);
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    top: -10px;
+}
+.custom-brand1{
+    color: gray;
+}
+.custom-brand1:hover{
+    color: white;
+}
+.custom-search{
+    background-color: #303030;
 }
 .custom-link{
-    text-decoration: none;
-    color: #EEEEEE;
-}
-.custom-font{
-    color: #EEEEEE;
-    font-size: 14px;
+    color: gray!important;
 }
 .custom-link:hover{
-    text-decoration: underline;
-    color: #EEEEEE;
+    color: white!important;
+}
+.custom-pc::after{
+    content: '   >';
+    font-size: 20px;
+    color: green;
+}
+.custom-margin{
+    position: absolute;
+    left: -160px!important;
+    background-color: #303030;
+}
+.custom-no-hover:hover{
+    background-color: #303030;
+}
+.cenetr-custom{
+    margin: 0 auto!important;
+    width: 80%!important;
+}
+.cart-custom-hover:hover{
+    color: green!important;
+}
+.custom-brand2{
+    position: relative;
+}
+.custom-brand2::before{
+    content: url(../svg/razer-ths-logo.svg);
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    top: -10px;
+}
+.custom-margin-nav-search{
+    position: absolute;
+    left: -300px!important;
+    top: -0.5px!important;
+    height: 0px!important;
+    width: 300px!important;
+}
+.hamid{
+    position: absolute!important;
+    left: -330px!important;
+    top: 50px!important;
+    height: 30px;
+    width: 300px!important;
+}
+.hamid2{
+    height: 30px;
+    width: 650px;
 }
