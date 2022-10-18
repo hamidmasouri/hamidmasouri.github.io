@@ -36,7 +36,7 @@
     }
 }
 .bg-dark-custom{
-    background-color: #040404;
+    background-color: #040404!important;
 }
 .custom-brand{
     position: relative;
@@ -112,4 +112,41 @@
 .hamid2{
     height: 30px;
     width: 650px;
+}
+.custom-link1{
+    text-decoration: none;
+    color: white!important;
+    position: relative!important;
+}
+.custom-link1:hover{
+    text-decoration: underline;
+}
+.custom-link1::after{
+    position: absolute!important;
+    content: '>';
+    color: green;
+    right: -15px;
+}
+body{
+    background-color: #040404!important;
+}
+.custom-link2{
+    cursor: pointer;
+}
+.custom-link2:hover{
+    color: white!important;
+    text-decoration: underline;
+}
+.custom-size{
+    font-size: xx-small!important;
+    position: relative;
+}
+.custom-size1{
+    font-size: xx-small!important;
+    position: relative;
+}
+.custom-size::after{
+    content: '|';
+    position: absolute;
+    right: -6px;
 }
